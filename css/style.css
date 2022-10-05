@@ -204,7 +204,16 @@ h5{
   font-size: 130%;
 }
 
-
+/* FORMULARIO */
+.container__formulario{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  color: white;
+  width: 33%;
+  margin-bottom: 20px;
+}
 
 
 
