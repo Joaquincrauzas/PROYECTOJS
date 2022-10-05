@@ -1,0 +1,25 @@
+%flexrow{
+    display: flex;
+    flex-direction: row;
+    color: white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 90%;
+    text-decoration: none;
+    margin: 50px;
+    padding: 50px;
+}
+
+%flexcolumn{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+%bordernone{
+    border: none;
+}
+
+%borderwidth{
+    border-radius: 35%;
+    width: 100%;
+}

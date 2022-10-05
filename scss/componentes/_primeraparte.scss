@@ -1,0 +1,80 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    font-size: nth($font-size, 1 );
+}
+
+.body{
+    background-color: darken($c-principal, 80%);
+}
+h1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+h3{
+    margin: nth($margin , 3 );
+    padding: nth($padding , 4);
+    text-decoration: none;
+    color: nth($colores, 1 );
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: nth($font-size, 4 );
+}
+
+.navLogo img{
+    width: nth($width, 7 );
+}
+.navLista .navLinks a{
+    font-size: nth($font-size, 2 );
+    border: solid 2px white;
+    margin: nth($margin, 5);
+    color: nth($colores, 1 )
+} 
+
+.fotosHernan{
+    border-radius: nth($border-radius, 2 )
+}
+
+.topfive{
+    @extend %flexrow;
+    flex-direction: row;
+}
+
+
+.topfiveH3{
+    margin: nth($margin , 2 );
+    padding: nth($padding , 3 );
+}
+
+.topfive .topfivespotify{
+    height: nth($height, 1 );
+    right: 20%;
+    text-align: center;
+
+}
+
+.recomendados{
+    @extend %flexrow;
+    justify-content: start;
+
+}
+
+.recomendadosH3{
+    margin: nth($margin , 2 );
+    padding: nth($margin , 2 );
+}
+.recomendados .recomendadossouncloud{
+    width: nth($width , 9 );
+}
+  
+.recomendados select option{
+    height: nth($height , 3 );
+    width: nth($width, 8 );
+    text-align: center;
+    border-radius: nth($border-radius, 1 );
+}

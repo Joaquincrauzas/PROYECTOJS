@@ -1,0 +1,13 @@
+.eventouno{
+    @include flexcolumn()
+}
+.eventouno img{
+    width: 80%;
+}
+
+.eventodos{
+    @include flexcolumn()
+}
+.eventodos img{
+    width: 80%;
+}

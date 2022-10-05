@@ -1,0 +1,37 @@
+.titulotres h3{
+    background-color: darken($c-principal, 80%);
+    border: nth($border-radius , 1 );
+    margin-top: 20px;
+}
+
+.servicios{
+    width: nth($width, 3 );
+    border: none;
+}
+.serviciosUno{
+    @extend %bordernone;
+}
+.serviciosDos{
+    @extend %bordernone;
+}
+.serviciosTres{
+    @extend %bordernone;
+}
+
+.basicolista{
+    background-color: map-get($map: $terceraparte, $key: bg-principal );
+    color: map-get($map: $terceraparte, $key: color );
+    height: 170px; 
+}
+.intermediolista{
+    background-color: map-get($map: $terceraparte, $key: bg-principal );
+    color: map-get($map: $terceraparte, $key: color );
+    height: nth($height, 4 ); 
+}
+
+.fullLista{
+    border: none;
+    background-color: map-get($map: $terceraparte, $key: bg-principal );
+    color: map-get($map: $terceraparte, $key: color );
+    height: nth($height , 4); 
+}

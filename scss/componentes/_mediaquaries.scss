@@ -1,0 +1,82 @@
+/*mediaqueries*/ 
+@media only screen and (max-width: 768px){
+
+}
+
+@media only screen and (max-width: 576px) {
+
+*{
+    margin: 0;
+    padding: 0;
+}
+/* PRIMERA PARTE */
+h1{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    font-size: 80%;
+}
+.navLogo img{
+    width: nth($width , 6 );
+}
+
+.navLista{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.topfive .topfivespotify option{
+    height: nth($height , 2 );
+} 
+
+.recomendados{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 2fr;
+    grid-template-areas: 
+    "recomendadosH3"
+    "recomendadossouncloud";
+}
+.recomendadosH3{
+    grid-area: recomendadosH3;
+}
+
+.recomendadossouncloud{
+    grid-area: recomendadossouncloud;
+    width: nth($width , 5 );
+    margin-bottom: 25px;
+}
+
+/* SEGUNDA PARTE  */
+
+.titulodos h3{
+    margin: nth($margin , 4 );
+    padding: nth($padding , 5 )
+}
+
+
+/* TERCERA PARTE  */
+.servicios{
+    width: nth($width , 2 );
+}
+
+.container__basico{
+    margin-bottom: 38px;
+}
+
+.containerIntermedio{
+    margin-bottom: 38px;
+}
+
+.containerFull{
+    margin-bottom: 38px;
+}
+
+/* CUARTA PARTE */
+
+.containercuatro{
+    width: nth($width , 2 );
+}
+}
