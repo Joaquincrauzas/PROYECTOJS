@@ -215,6 +215,14 @@ h5{
   margin-bottom: 20px;
 }
 
+.container__formulario .formulario__mail{
+  width: 100%;
+  text-align: center;
+}
+
+.container__formulario .container__boton{
+  width: 95%;
+}
 
 
 /* PROXIMOS EVENTOS  */
